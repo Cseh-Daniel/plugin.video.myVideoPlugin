@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.myVideoPlugin" name="My first Addon" version="0.0.1" provider-name="Denyol">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <platform>all</platform>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">My first Addonn</summary>
+        <description lang="en">My first Addon</description>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
